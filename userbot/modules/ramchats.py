@@ -108,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.exit$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit(f"goobyee"
+    await leave.edit(f"goodbyee"
     sleep(10)
     await leave.edit(f"`{ALIVE_NAME}, Meninggalkan Group ini, Good bye evrybody`")
     await leave.client.kick_participant(leave.chat_id, 'me')
