@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/Ihsanali1/ICAN-USERBOT",
   "telegram": "https://t.me/canbeurboy",
-  "success_url": "https://t.me/canbeurboy",
+  "success_url": "https://t.me/icanihsanbot",
   "stack": "container",
   "env": {
     "API_KEY": {
